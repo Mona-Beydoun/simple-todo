@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+body {
+  text-align: center;
+  justify-content: center;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+input {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 3px;
+  border-color: gray;
+}
+button {
+  background-color: #4fa3e3;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+}
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+  text-align: left;
+}
+li {
+  margin: 8px;
+  text-align: center;
+  cursor: pointer;
+}
